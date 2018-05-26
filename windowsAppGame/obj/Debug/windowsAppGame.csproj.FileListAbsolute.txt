@@ -1,0 +1,10 @@
+C:\Users\Ivan\source\repos\windowsAppGame\windowsAppGame\bin\Debug\windowsAppGame.exe.config
+C:\Users\Ivan\source\repos\windowsAppGame\windowsAppGame\bin\Debug\windowsAppGame.exe
+C:\Users\Ivan\source\repos\windowsAppGame\windowsAppGame\bin\Debug\windowsAppGame.pdb
+C:\Users\Ivan\source\repos\windowsAppGame\windowsAppGame\obj\Debug\windowsAppGame.csprojAssemblyReference.cache
+C:\Users\Ivan\source\repos\windowsAppGame\windowsAppGame\obj\Debug\windowsAppGame.Properties.Resources.resources
+C:\Users\Ivan\source\repos\windowsAppGame\windowsAppGame\obj\Debug\windowsAppGame.csproj.GenerateResource.cache
+C:\Users\Ivan\source\repos\windowsAppGame\windowsAppGame\obj\Debug\windowsAppGame.csproj.CoreCompileInputs.cache
+C:\Users\Ivan\source\repos\windowsAppGame\windowsAppGame\obj\Debug\windowsAppGame.exe
+C:\Users\Ivan\source\repos\windowsAppGame\windowsAppGame\obj\Debug\windowsAppGame.pdb
+C:\Users\Ivan\source\repos\windowsAppGame\windowsAppGame\obj\Debug\windowsAppGame.Form1.resources
