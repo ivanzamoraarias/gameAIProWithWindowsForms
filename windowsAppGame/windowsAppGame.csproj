@@ -45,6 +45,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="commons\randomNumbers\LasVegas.cs" />
+    <Compile Include="commons\randomNumbers\LinearCongruentialMethod.cs" />
+    <Compile Include="commons\randomNumbers\RandomGenerator.cs" />
     <Compile Include="GameObject.cs" />
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
