@@ -6,20 +6,28 @@ using System.Threading.Tasks;
 
 namespace windowsAppGame.commons.randomNumbers
 {
-    class LasVegas : RandomGenerator
+    class LasVegas : LinearCongruentialMethod
     {
         private int l;
         private int u;
-        private int m;
 
-        LasVegas(int m, int l, int u)
+        public LasVegas(int m,int a,int c, int l, int u): base(m, a, c)
         {
             this.l = l;
             this.u = u;
+         
         }
-        public long GetRandom()
+       
+        public new long GetRandom()
         {
-            throw new NotImplementedException();
+            int w = u - l;
+            long r = 0;
+            do
+            {
+                r = base.GetRandom();
+            } while (r < w);
+            r = r + l;
+            return r;
         }
     }
 }

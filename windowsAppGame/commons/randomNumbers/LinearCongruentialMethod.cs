@@ -15,17 +15,26 @@ using System.Threading.Tasks;
 */
 namespace windowsAppGame.commons.randomNumbers
 {
-    class LinearCongruentialMethod : RandomGenerator
+    public class LinearCongruentialMethod : RandomGenerator
     {
-        private int m;
-        private int a;
-        private int c;
-        private int xo;
+        protected int m;
+        protected int a;
+        protected int c;
+        protected int xo;
 
-        LinearCongruentialMethod(int m, int a, int c)
+        public LinearCongruentialMethod() { }
+
+        public LinearCongruentialMethod(int m, int a, int c)
         {
-            this.m = m;
-            this.a = a;
+            if (0 <= a)
+                this.a = a;
+            else
+                throw new Exception("a invalid value");
+            if (1 <= m)
+                this.m = m;
+            else
+                throw new Exception("m invalid value");
+            
             this.c = c;
             this.xo = this.generateInitialValue();
         }
@@ -43,6 +52,29 @@ namespace windowsAppGame.commons.randomNumbers
             xo = r;
             return r;
         }
+
+        public int RandomWithMaxIndex()
+        {
+            int r = (a * xo) % m;
+            r = moduloSum(r,c,m);
+            xo = r;
+            return r;
+        }
+
+        public int Random()
+        {
+            int q = m / a;
+            int p = m % a;
+            int r = a * (xo % q) - p * (xo / q);
+            if (r < 0)
+            {
+                r = r + m;
+            }
+            r = moduloSum(r, c, m);
+            xo = r;
+            return r;
+        }
+
         private int generateInitialValue() => new Random().Next(0, m - 1);
 
         private int moduloSum(int x, int y, int mo)
