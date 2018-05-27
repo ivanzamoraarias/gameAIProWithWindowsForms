@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -6,16 +7,12 @@ using System.Threading.Tasks;
 
 namespace windowsAppGame.commons.randomNumbers
 {
-    class AllPermutations : RandomGenerator
+    class AllPermutations : RandomListGenerator
     {
         int n;
         AllPermutations(int n)
         {
             this.n = n;
-        }
-        public long GetRandom()
-        {
-            throw new NotImplementedException("getAllPermutations should get the permutations");
         }
         public List<int[]> getAllPermutations()
         {
@@ -82,6 +79,11 @@ namespace windowsAppGame.commons.randomNumbers
             int temp = a;
             a = b;
             b = temp;
+        }
+
+        public IList GetRandomList()
+        {
+            return getAllPermutations();
         }
     }
 }
