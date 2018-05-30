@@ -12,6 +12,10 @@ namespace windowsAppGame
 {
     public partial class Form1 : Form
     {
+        Point[] Positions = {
+            new Point(1,1), new Point(10,10),
+            new Point(20,10), new Point(50,10),new Point(60,20)
+        };
         private int x;
         private int y;
         public Form1()

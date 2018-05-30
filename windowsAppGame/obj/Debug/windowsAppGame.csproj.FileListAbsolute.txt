@@ -8,3 +8,15 @@ C:\Users\Ivan\source\repos\windowsAppGame\windowsAppGame\obj\Debug\windowsAppGam
 C:\Users\Ivan\source\repos\windowsAppGame\windowsAppGame\obj\Debug\windowsAppGame.exe
 C:\Users\Ivan\source\repos\windowsAppGame\windowsAppGame\obj\Debug\windowsAppGame.pdb
 C:\Users\Ivan\source\repos\windowsAppGame\windowsAppGame\obj\Debug\windowsAppGame.Form1.resources
+C:\Users\Ivan\source\repos\windowsAppGame\windowsAppGame\obj\Debug\windowsAppGame._3Dform.resources
+C:\Users\Ivan\source\repos\windowsAppGame\windowsAppGame\bin\Debug\SharpDX.D3DCompiler.dll
+C:\Users\Ivan\source\repos\windowsAppGame\windowsAppGame\bin\Debug\SharpDX.Desktop.dll
+C:\Users\Ivan\source\repos\windowsAppGame\windowsAppGame\bin\Debug\SharpDX.Direct3D11.dll
+C:\Users\Ivan\source\repos\windowsAppGame\windowsAppGame\bin\Debug\SharpDX.dll
+C:\Users\Ivan\source\repos\windowsAppGame\windowsAppGame\bin\Debug\SharpDX.DXGI.dll
+C:\Users\Ivan\source\repos\windowsAppGame\windowsAppGame\bin\Debug\SharpDX.xml
+C:\Users\Ivan\source\repos\windowsAppGame\windowsAppGame\bin\Debug\SharpDX.D3DCompiler.xml
+C:\Users\Ivan\source\repos\windowsAppGame\windowsAppGame\bin\Debug\SharpDX.Desktop.xml
+C:\Users\Ivan\source\repos\windowsAppGame\windowsAppGame\bin\Debug\SharpDX.Direct3D11.xml
+C:\Users\Ivan\source\repos\windowsAppGame\windowsAppGame\bin\Debug\SharpDX.DXGI.xml
+C:\Users\Ivan\source\repos\windowsAppGame\windowsAppGame\obj\Debug\windowsAppGame.csproj.CopyComplete

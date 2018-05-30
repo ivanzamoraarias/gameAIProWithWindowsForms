@@ -14,9 +14,20 @@ namespace windowsAppGame
         [STAThread]
         static void Main()
         {
-            Application.EnableVisualStyles();
-            Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Form1());
+            
+
+                using (App application = new App())
+                {
+                    application.Run();
+                }
+
+            
+
+
+           // Application.EnableVisualStyles();
+           // Application.SetCompatibleTextRenderingDefault(false);
+            //Application.Run(new Form1());
+          //  Application.Run(new _3Dform());
         }
     }
 }
